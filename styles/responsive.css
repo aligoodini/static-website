@@ -21,6 +21,15 @@
   .main-view-container {
     padding-bottom: 50px;
   }
+  .main-right-img-box {
+    right: 19%;
+    bottom: -19%;
+  }
+  .main-right-effect-box {
+
+    bottom: -25%;
+    right : 2%
+  }
 
 }
 @media (max-width: 1200px) {
@@ -48,6 +57,7 @@
     display: none;
   }
   .main-top__text {
+    display: block;
     font-size: 28px;
     line-height: 46px;
     text-align: center;
