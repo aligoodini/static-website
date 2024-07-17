@@ -127,7 +127,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
 }
 .main-box {
   width: calc(100% - 8vw);
@@ -183,8 +183,8 @@ header {
   /* margin: 0 0 10px; */
 }
 .main-top__text {
-  /* display: flex;
-  flex-wrap: wrap; */
+  display: flex;
+  flex-wrap: wrap;
   line-height: 56px;
   letter-spacing: 0;
 }
@@ -240,7 +240,7 @@ header {
 .main-right-effect-box {
   position: absolute;
   /* bottom: -110px; */
-  bottom: -9%;
+  bottom: -12%;
   height: auto !important;
   right: 7%;
   left: unset;
