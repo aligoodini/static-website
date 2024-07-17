@@ -1,0 +1,162 @@
+@media (max-width: 1400px) {
+}
+@media (max-width: 1300px) {
+  .main-right-img-box {
+    right: 25%;
+  }
+  .main-right {
+    width: 60%;
+    margin-left: 0px;
+  }
+  .main-view-boxes {
+    flex-direction: column-reverse;
+  }
+  .main-view-boxes-right {
+    width: 90%;
+  }
+  .main-view-boxes-left {
+    width: 90%;
+    padding-right: 0;
+  }
+  .main-view-container {
+    padding-bottom: 50px;
+  }
+
+}
+@media (max-width: 1200px) {
+  .main-all {
+    background-image: radial-gradient(
+      50% 50%,
+      var(--prim-color) 46%,
+      transparent 110%
+    );
+  }
+  .main-box {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .main-left {
+    margin-right: 0px;
+  }
+  .main-right-img-box {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    display: none;
+  }
+  .main-right-effect-box {
+    display: none;
+  }
+  .main-top__text {
+    font-size: 28px;
+    line-height: 46px;
+    text-align: center;
+  }
+  .main-top__desc {
+    margin: -80px 0 30px 0;
+  }
+  .main-top__try {
+    text-align: center;
+  }
+  .main-top {
+    width: 120%;
+  }
+  .main-bottom {
+    justify-content: center;
+    align-items: center;
+  }
+  .form {
+    width: 55%;
+    right: 27%;
+  }
+}
+@media (max-width: 992px) {
+  .form {
+    right: 20%;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-left-link {
+    width: 95px;
+    height: 64px;
+    padding: 0 8px;
+  }
+  .navbar-left-logo-box__image {
+    width: 79px !important;
+    height: 36px;
+  }
+  .footer-top {
+    flex-wrap: wrap;
+  }
+  .footer-bottom__image {
+    width: 150px;
+  }
+  .footer-top-contact {
+    margin-top: 30px;
+  }
+  .footer-top-pages {
+    margin-top: 30px;
+  }
+  .form {
+    width: 65%;
+    right: 15% !important;
+  }
+}
+@media (max-width: 576px) {
+  .navbar-right-lang-img-box {
+    display: none;
+  }
+  .navbar {
+    flex-wrap: wrap;
+  }
+  .main-all {
+    padding-bottom: 30px;
+  }
+  .main-top {
+    text-align: center;
+    padding: 0 5px;
+  }
+  .main-bottom {
+    flex-direction: column;
+  }
+  .main-bottom--googlepaly-box {
+    margin-right: -70px !important;
+  }
+  .main-bottom--googlepaly-box__image,
+  .main-bottom--applestore-box__image {
+    width: 150px;
+  }
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+  .footer-bottom__copy-right-text {
+    margin-top: 10px;
+  }
+
+  .footer-top-pages {
+    align-items: center;
+  }
+  .footer-top-details-img-box {
+    margin: 0 auto;
+    background-color: transparent;
+    color: #000 !important;
+    filter: brightness(0) invert(1) !important;
+  }
+  .footer-bottom {
+    flex-direction: column-reverse;
+  }
+  .footer-bottom-boxes-img {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form {
+    width: 65%;
+  }
+}
+@media (max-width: 420px) {
+}

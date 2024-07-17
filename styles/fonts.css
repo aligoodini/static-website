@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'GillSans';
+    src: url(../fonts/Gillsans/GillSansC.0806dbd5.ttf);
+  }
+
+  @font-face {
+    font-family: 'Popins';
+    src: url(../fonts/Poppins/Poppins-Regular.e3fe7ebf.ttf);
+  }
+
+  @font-face {
+    font-family: 'IRANsans';
+    src: url(../fonts/IRANsans/IRANSansWeb\(FaNum\).woff2);
+  }

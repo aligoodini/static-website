@@ -1,0 +1,11 @@
+.bold{
+    font-weight: 700;
+    margin: 0 18px;
+}
+.show-flex{
+    display: flex !important;
+}
+
+.show-block{
+    display: block !important;
+}

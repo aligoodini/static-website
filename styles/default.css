@@ -1,0 +1,33 @@
+:root {
+  --prim-color: #1c39bb;
+  --white-color: #fff;
+  --black-color: #14161c;
+  --gray-text-color: #c1c2c5;
+  --black-form: #1d1f24;
+  --label-color : hsla(0, 0%, 100%, 0.8);
+  --primary-font: "GillSans", Arial, Helvetica, sans-serif;
+  --secondary-font: "Popins", Arial, Helvetica, sans-serif;
+  --tertiary-font: "IRANsans", Arial, Helvetica, sans-serif;
+  --tran: all 3s;
+}
+html {
+  box-sizing: border-box;
+  /* font-size: 62.5%; */
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1.6;
+  /* font-size: 1.6rem; */
+  font-family: var(--primary-font) !important;
+  scrollbar-color: #aaa transparent;
+}
+
+a {
+  text-decoration: none;
+}
